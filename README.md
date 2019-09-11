@@ -8,3 +8,12 @@ at Villains Academy.
 ```shell
 ruby directory.rb
 ``` 
+
+## Additional Exercises ## 
+
+There were additional exercises in step 8 which were not part of the main challenge. 
+
+View these in:
+```shell
+ruby_directory_step8.rb
+```
