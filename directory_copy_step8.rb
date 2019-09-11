@@ -16,7 +16,8 @@ def input_students
   end
   # Return the array of students
   # Program modified to only print students whose name begins with specific letter.
-  students.delete_if { |student| student[:name][0] != "A" }
+  # Program only prints students who names is < 12 characters.
+  students.delete_if { |student| student[:name][0] != "A" || student[:name].size > 12}
 end
 
 def print_header
